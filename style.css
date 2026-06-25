@@ -113,8 +113,6 @@ h4 {
   box-shadow: 0 8px 20px rgba(212, 175, 55, 0.35);
 }
 
-
-
 body.light-theme .hero .btn-outline {
   color: #f5f2ed;
   border-color: #f5f2ed;
@@ -126,9 +124,8 @@ body.light-theme .hero .btn-outline:hover {
   color: #ffffff;
 }
 
-/* Improve reservation section readability in light mode */
-
 body.light-theme .reservation .section-title,
+body.light-theme .reservation .reservation-info,
 body.light-theme .reservation .reservation-info p,
 body.light-theme .reservation .detail-item strong,
 body.light-theme .reservation .detail-item span {
@@ -141,8 +138,6 @@ body.light-theme .reservation .detail-item span {
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
 }
-
-
 
 .btn-full {
   width: 100%;
@@ -1305,17 +1300,6 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 
 .footer {
@@ -1586,8 +1570,6 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     padding: 24px 0;
   }
 }
-
-
 
 /* Responsive Design */
 @media (max-width: 1024px) {
